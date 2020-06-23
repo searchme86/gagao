@@ -1,0 +1,14 @@
+{
+  "name": "category_kakao",
+  "version": "1.0.0",
+  "description": "cloning kako webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rohkorea86",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
