@@ -15,6 +15,8 @@ $(document).ready(function () {
 
     if (emailinput.val() === "") {
       emaillabel.attr("style", "display:block;");
+      delBtn.css("display", "none");
+      infoBtn.css("display", "block");
     }
     delBtn.click(function () {
       emailinput.val("");
@@ -45,6 +47,7 @@ $(document).ready(function () {
   //비밀번호 인풋에 포커스가 생길 경우, 로그인 안내 팝업 삭제
   $(".inputArea__input--pwd input[type=password]").focus(function () {
     $(".infoHelp__infoTxt--visible").css("display", "none");
+    $(".inputArea__status--visible").css("display", "none")
   })
 
 
