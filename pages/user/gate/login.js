@@ -42,6 +42,11 @@ $(document).ready(function () {
 
   $(".infoHelp .infoHelp__infoBtn").on("click", popup);
 
+  //비밀번호 인풋에 포커스가 생길 경우, 로그인 안내 팝업 삭제
+  $(".inputArea__input--pwd input[type=password]").focus(function () {
+    $(".infoHelp__infoTxt--visible").css("display", "none");
+  })
+
 
   // 2. 비밀번호 인풋 입력 기능
   $(".inputArea__input--pwd input[type=password]").on("propertychange change keyup paste input", function () {

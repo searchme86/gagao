@@ -423,6 +423,12 @@ fieldset {
   clear: both;
 }
 
+.gagao__wrap .gagao__contents .login__wrap .login__contents:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
 .gagao__wrap .gagao__footer {
   width: 100%;
   text-align: center;
