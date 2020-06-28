@@ -1,0 +1,503 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+button {
+  display: block;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.offscreen {
+  display: inline-block;
+  position: absolute;
+  overflow: hidden;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+}
+
+.gagao__wrap .gagao__contents {
+  width: 100%;
+  margin: 45px 0;
+}
+
+.gagao__wrap .gagao__contents .login__wrap {
+  max-width: 1173px;
+  padding: 44px;
+  margin: 0 auto;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents {
+  width: 100%;
+  min-height: 566px;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .infoAdv {
+  float: left;
+  padding-right: 88px;
+  margin-top: 58px;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .infoAdv__title {
+  display: block;
+  font-size: 23px;
+  font-weight: bold;
+  padding-bottom: 9px;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .infoAdv__desc {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #888a88;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .infoAdv__banner {
+  width: 479px;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .infoAdv__banner img {
+  width: 100%;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .infoAdv:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form {
+  float: left;
+  width: 480px;
+  min-height: 566px;
+  border: 1px solid #e5e5e5;
+  padding: 60px 70px 63px 70px;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form__title {
+  font-size: 27px;
+  padding-bottom: 46px;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--email {
+  position: relative;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--email form {
+  position: relative;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--email form label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 47px;
+  font-size: 15px;
+  color: #ced9e8;
+  padding: 11px 0 15px 0;
+  cursor: pointer;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--email form input {
+  width: 100%;
+  height: 47px;
+  font-size: 15px;
+  color: #252525;
+  letter-spacing: -0.3px;
+  border-width: 0 0 2px 0;
+  outline: 0;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--email .infoHelp__inputDel {
+  display: none;
+  position: absolute;
+  top: 11px;
+  right: 6px;
+  width: 20px;
+  height: 21px;
+  border: 0;
+  background: url("../../../assets/img/login/userLogin/btn_del.png") no-repeat;
+  cursor: pointer;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--email .infoHelp__infoBtn {
+  position: absolute;
+  top: 11px;
+  right: 6px;
+  width: 20px;
+  height: 21px;
+  border: 0;
+  background: url("../../../assets/img/login/userLogin/infoBtn.png") no-repeat;
+  cursor: pointer;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--email .infoHelp__infoTxt {
+  position: absolute;
+  top: 54px;
+  right: -5px;
+  z-index: 10;
+  width: 280px;
+  height: 79px;
+  background: #333333;
+  font-size: 11px;
+  line-height: 1.5;
+  padding: 11px 12px 11px 12px;
+  border-radius: 5px;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--email .infoHelp__infoTxt--desc {
+  font-size: 11px;
+  color: #fff;
+  letter-spacing: -1px;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--email .infoHelp__infoTxt--find a {
+  position: relative;
+  top: 10px;
+  font-size: 11px;
+  color: #fbda17;
+  text-decoration: underline;
+  margin-top: 17px;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--email .infoHelp__infoTxt--visible {
+  display: none;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--email .infoHelp__infoTxt:after {
+  content: " ";
+  position: absolute;
+  width: 15px;
+  height: 7px;
+  top: -7px;
+  left: 252px;
+  background: url("../../../assets/img/login/userLogin/here.png") no-repeat;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--pwd {
+  position: relative;
+  margin-top: 20px;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--pwd form {
+  position: relative;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--pwd form label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 47px;
+  font-size: 15px;
+  color: #ced9e8;
+  padding: 11px 0 15px 0;
+  cursor: pointer;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--pwd form input {
+  width: 100%;
+  height: 47px;
+  font-size: 15px;
+  color: #252525;
+  letter-spacing: -0.3px;
+  border-width: 0 0 2px 0;
+  outline: 0;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--pwd .btn-pwd button {
+  display: none;
+  position: absolute;
+  top: 11px;
+  right: 6px;
+  width: 20px;
+  height: 21px;
+  border: 0;
+  background: url("../../../assets/img/login/userLogin/btn_del.png") no-repeat;
+  cursor: pointer;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--saved {
+  position: relative;
+  margin: 30px 0 40px 0;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--saved input[type="checkbox"] {
+  display: none;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--saved input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  padding-left: 28px;
+  font-size: 13px;
+  vertical-align: top;
+  background: url("../../../assets/img/login/userLogin/status_unchecked.png") no-repeat;
+  cursor: pointer;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--saved input[type="checkbox"]:checked + label span {
+  background: url("../../../assets/img/login/userLogin/status_checked.png") no-repeat;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--saved .inputArea__status--alert {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  z-index: 10;
+  width: 280px;
+  height: 61px;
+  padding-top: 11px;
+  padding-left: 12px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--saved .inputArea__status--alert:after {
+  content: " ";
+  position: absolute;
+  width: 15px;
+  height: 7px;
+  top: -7px;
+  left: 63px;
+  background: url("../../../assets/img/login/userLogin/here.png") no-repeat;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--saved .inputArea__status--alert .inputArea__status--desc {
+  font-size: 11px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: -1px;
+  word-break: keep-all;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--saved .inputArea__status--alert .inputArea__status--find a {
+  position: relative;
+  top: 5px;
+  font-size: 11px;
+  font-weight: bold;
+  color: #fbda17;
+  text-decoration: underline;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .inputArea .inputArea__input--saved .inputArea__status--visible {
+  display: none;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .btnArea__email-btn {
+  width: 338px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .btnArea__email-btn span {
+  font-size: 12px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .btnArea .email-btn--colored {
+  background: #ffe500;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .btnArea__liner {
+  position: relative;
+  display: block;
+  margin: 19px 0 18px 0;
+  text-align: center;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .btnArea__liner:before {
+  position: absolute;
+  content: " ";
+  width: calc(50% - 20px);
+  height: 1px;
+  top: 11px;
+  left: 0;
+  background: #f0f0f0;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .btnArea__liner .txt {
+  font-size: 11px;
+  color: #dcdcdc;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .btnArea__liner:after {
+  position: absolute;
+  content: " ";
+  width: calc(50% - 20px);
+  height: 1px;
+  top: 11px;
+  right: 0;
+  background: #f0f0f0;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .btnArea__qr-btn {
+  width: 338px;
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 34px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .btnArea__qr-btn span {
+  font-size: 12px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .btnArea .qr-btn--colored {
+  background: #f6f6f6;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .txtArea {
+  font-size: 11px;
+  color: #917c7a;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .txtArea__join {
+  float: left;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .txtArea__findInfo {
+  float: right;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .txtArea__findInfo a {
+  display: inline-block;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form .txtArea:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.gagao__wrap .gagao__contents .login__wrap .login__contents .form:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.gagao__wrap .gagao__footer {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  border-top: 1px solid #e5e5e5;
+}
+
+.gagao__wrap .gagao__footer .footer__wrap {
+  max-width: 1138px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gagao__wrap .gagao__footer .policy .policy-list {
+  position: relative;
+  margin: 25px 0 16px 0;
+  font-size: 0;
+}
+
+.gagao__wrap .gagao__footer .policy .policy-list li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.gagao__wrap .gagao__footer .policy .policy-list li:first-child {
+  padding-right: 20px;
+}
+
+.gagao__wrap .gagao__footer .policy .policy-list li a {
+  font-size: 11px;
+}
+
+.gagao__wrap .gagao__footer .policy .policy-language ul {
+  display: none;
+}
+
+.gagao__wrap .gagao__footer .policy .policy-language ul li {
+  height: 42px;
+  line-height: 42px;
+}
+
+.gagao__wrap .gagao__footer .policy .policy-language ul li .language-selected {
+  display: block;
+}
+
+.gagao__wrap .gagao__footer .policy .policy-language--up {
+  position: relative;
+}
+
+.gagao__wrap .gagao__footer .policy .policy-language--up ul {
+  display: none;
+  position: absolute;
+  top: -130px;
+  right: 327px;
+  width: 90px;
+  height: 128px;
+  font-size: 11px;
+  border: 1px solid #eeeeee;
+}
+
+.gagao__wrap .gagao__footer .policy .policy-language--highlighted {
+  background: #ffffff;
+}
+
+.gagao__wrap .gagao__footer .policy .policy-language--highlighted .language-selected {
+  background: #eeeeee;
+}
+
+.gagao__wrap .gagao__footer .policy .policy-copyright {
+  color: #7c88a9;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.gagao__wrap .gagao__footer .policy .policy-copyright--highlighted .company {
+  color: #7c7c7c;
+  font-weight: bold;
+}

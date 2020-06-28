@@ -1,0 +1,504 @@
+@charset "utf-8";
+@import "../../../assets/style/scss/src/base/reset";
+
+.gagao__wrap {
+  .gagao__contents {
+    width: 100%;
+    margin: 45px 0;
+
+    .login__wrap {
+      max-width: 1173px;
+      padding: 44px;
+      margin: 0 auto;
+
+      .login__contents {
+        width: 100%;
+        min-height: 566px;
+
+        .infoAdv {
+          float: left;
+          padding-right: 88px;
+          margin-top: 58px;
+
+          &__title {
+            display: block;
+            font-size: 23px;
+            font-weight: bold;
+            padding-bottom: 9px;
+          }
+
+          &__desc {
+            font-size: 12px;
+            line-height: 1.6;
+            color: #888a88;
+          }
+
+          &__banner {
+            width: 479px;
+
+            img {
+              width: 100%;
+            }
+          }
+
+          &:after {
+            content: " ";
+            display: block;
+            clear: both;
+          }
+        }
+
+        .form {
+          float: left;
+          width: 480px;
+          min-height: 566px;
+          border: 1px solid #e5e5e5;
+          padding: 60px 70px 63px 70px;
+
+          &__title {
+            font-size: 27px;
+            padding-bottom: 46px;
+          }
+
+          .inputArea {
+            .inputArea__input--email {
+              position: relative;
+
+              form {
+                position: relative;
+
+                label {
+                  display: block;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 47px;
+                  font-size: 15px;
+                  color: #ced9e8;
+                  padding: 11px 0 15px 0;
+                  cursor: pointer;
+                }
+
+                input {
+                  width: 100%;
+                  height: 47px;
+                  font-size: 15px;
+                  color: #252525;
+                  letter-spacing: -0.3px;
+                  border-width: 0 0 2px 0;
+                  outline: 0;
+                }
+              }
+
+              .infoHelp {
+
+                &__inputDel {
+                  display: none;
+                  position: absolute;
+                  top: 11px;
+                  right: 6px;
+                  width: 20px;
+                  height: 21px;
+                  border: 0;
+                  background: url("../../../assets/img/login/userLogin/btn_del.png") no-repeat;
+                  cursor: pointer;
+                }
+
+                &__infoBtn {
+                  position: absolute;
+                  top: 11px;
+                  right: 6px;
+                  width: 20px;
+                  height: 21px;
+                  border: 0;
+                  background: url("../../../assets/img/login/userLogin/infoBtn.png") no-repeat;
+                  cursor: pointer;
+                }
+
+                &__infoTxt {
+                  position: absolute;
+                  top: 54px;
+                  right: -5px;
+                  z-index: 10;
+                  width: 280px;
+                  height: 79px;
+                  background: #333333;
+                  font-size: 11px;
+                  line-height: 1.5;
+                  padding: 11px 12px 11px 12px;
+                  border-radius: 5px;
+
+                  &--desc {
+                    font-size: 11px;
+                    color: #fff;
+                    letter-spacing: -1px;
+                  }
+
+                  &--find {
+                    a {
+                      position: relative;
+                      top: 10px;
+                      font-size: 11px;
+                      color: #fbda17;
+                      text-decoration: underline;
+                      margin-top: 17px;
+                    }
+                  }
+
+                  &--visible {
+                    display: none;
+                  }
+
+
+
+                  &:after {
+                    content: " ";
+                    position: absolute;
+                    width: 15px;
+                    height: 7px;
+                    top: -7px;
+                    left: 252px;
+                    background: url("../../../assets/img/login/userLogin/here.png") no-repeat;
+                  }
+
+                }
+
+              }
+            }
+
+            .inputArea__input--pwd {
+              position: relative;
+              margin-top: 20px;
+
+              form {
+                position: relative;
+
+                label {
+                  display: block;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 47px;
+                  font-size: 15px;
+                  color: #ced9e8;
+                  padding: 11px 0 15px 0;
+                  cursor: pointer;
+                }
+
+                input {
+                  width: 100%;
+                  height: 47px;
+                  font-size: 15px;
+                  color: #252525;
+                  letter-spacing: -0.3px;
+                  border-width: 0 0 2px 0;
+                  outline: 0;
+                }
+              }
+
+              .btn-pwd {
+                button {
+                  display: none;
+                  position: absolute;
+                  top: 11px;
+                  right: 6px;
+                  width: 20px;
+                  height: 21px;
+                  border: 0;
+                  background: url("../../../assets/img/login/userLogin/btn_del.png") no-repeat;
+                  cursor: pointer;
+                }
+              }
+            }
+
+            .inputArea__input--saved {
+              position: relative;
+              margin: 30px 0 40px 0;
+
+              input[type="checkbox"] {
+                display: none;
+              }
+
+              input[type="checkbox"]+label span {
+                display: inline-block;
+                width: 100%;
+                height: 20px;
+                line-height: 20px;
+                padding-left: 28px;
+                font-size: 13px;
+                vertical-align: top;
+                background: url("../../../assets/img/login/userLogin/status_unchecked.png") no-repeat;
+                cursor: pointer;
+              }
+
+              input[type="checkbox"]:checked+label span {
+                background: url("../../../assets/img/login/userLogin/status_checked.png") no-repeat;
+              }
+
+              // label.checked span {
+              //   display: block;
+              //   background: url("../../../assets/img/login/userLogin/status_checked.png") no-repeat;
+              // }
+
+
+
+              .inputArea__status--alert {
+                position: absolute;
+                top: 32px;
+                left: 0;
+                z-index: 10;
+                width: 280px;
+                height: 61px;
+                padding-top: 11px;
+                padding-left: 12px;
+                padding-bottom: 10px;
+                padding-right: 25px;
+                background: rgba(0, 0, 0, 0.8);
+                border-radius: 5px;
+
+                &:after {
+                  content: " ";
+                  position: absolute;
+                  width: 15px;
+                  height: 7px;
+                  top: -7px;
+                  left: 63px;
+                  background: url("../../../assets/img/login/userLogin/here.png") no-repeat;
+                }
+
+
+                .inputArea__status--desc {
+                  font-size: 11px;
+                  font-weight: bold;
+                  color: #fff;
+                  letter-spacing: -1px;
+                  word-break: keep-all;
+                }
+
+
+                .inputArea__status--find {
+                  a {
+                    position: relative;
+                    top: 5px;
+                    font-size: 11px;
+                    font-weight: bold;
+                    color: #fbda17;
+                    text-decoration: underline;
+                  }
+                }
+              }
+
+              .inputArea__status--visible {
+                display: none;
+              }
+
+            }
+          }
+
+          .btnArea {
+            &__email-btn {
+              width: 338px;
+              height: 50px;
+              line-height: 50px;
+              text-align: center;
+              border: 0;
+              border-radius: 5px;
+              cursor: pointer;
+
+              span {
+                font-size: 12px;
+                color: #333333;
+                font-weight: bold;
+              }
+            }
+
+            .email-btn--colored {
+              background: #ffe500;
+            }
+
+
+            &__liner {
+              position: relative;
+
+              &:before {
+                position: absolute;
+                content: " ";
+                width: calc(50% - 20px);
+                height: 1px;
+                top: 11px;
+                left: 0;
+                background: #f0f0f0;
+              }
+
+              display: block;
+              margin: 19px 0 18px 0;
+              text-align: center;
+
+              .txt {
+                font-size: 11px;
+                color: #dcdcdc;
+              }
+
+              &:after {
+                position: absolute;
+                content: " ";
+                width: calc(50% - 20px);
+                height: 1px;
+                top: 11px;
+                right: 0;
+                background: #f0f0f0;
+              }
+
+            }
+
+            &__qr-btn {
+              width: 338px;
+              height: 50px;
+              line-height: 50px;
+              margin-bottom: 34px;
+              border-radius: 5px;
+              text-align: center;
+              cursor: pointer;
+
+              span {
+                font-size: 12px;
+                color: #333333;
+                font-weight: bold;
+              }
+            }
+
+            .qr-btn--colored {
+              background: #f6f6f6;
+            }
+
+
+
+
+          }
+
+          .txtArea {
+            font-size: 11px;
+            color: #917c7a;
+
+            &__join {
+              float: left;
+            }
+
+            &__findInfo {
+              float: right;
+
+              a {
+                display: inline-block;
+              }
+            }
+
+            &:after {
+              content: " ";
+              display: block;
+              clear: both;
+            }
+          }
+
+
+
+
+
+
+          &:after {
+            content: " ";
+            display: block;
+            clear: both;
+          }
+        }
+
+      }
+    }
+  }
+
+  .gagao__footer {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    border-top: 1px solid #e5e5e5;
+
+    .footer__wrap {
+      max-width: 1138px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .policy {
+      .policy-list {
+        position: relative;
+        margin: 25px 0 16px 0;
+        font-size: 0;
+
+        li {
+          display: inline-block;
+          padding-right: 20px;
+
+          &:first-child {
+            padding-right: 20px;
+          }
+
+          a {
+            font-size: 11px;
+          }
+        }
+      }
+
+      .policy-language {
+        ul {
+          display: none;
+
+          li {
+            height: 42px;
+            line-height: 42px;
+
+            .language-selected {
+              display: block;
+            }
+          }
+        }
+      }
+
+      .policy-language--up {
+        position: relative;
+
+        ul {
+          display: none;
+          position: absolute;
+          top: -130px;
+          right: 327px;
+          width: 90px;
+          height: 128px;
+          font-size: 11px;
+          border: 1px solid #eeeeee;
+        }
+      }
+
+      .policy-language--highlighted {
+        background: #ffffff;
+
+        .language-selected {
+          background: #eeeeee;
+        }
+      }
+
+      .policy-copyright {
+        color: #7c88a9;
+        font-size: 12px;
+        line-height: 1.5;
+      }
+
+      .policy-copyright--highlighted {
+        .company {
+          color: #7c7c7c;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
